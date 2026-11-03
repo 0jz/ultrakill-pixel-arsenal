@@ -1,0 +1,102 @@
+{
+"sheet": "fire_types",
+"about": "How a PG3D gun fires inside ULTRAKILL. Picked per gun by the first row (in priority order) whose PG3D flag is set, else the category's defaultFireType. Each fires ULTRAKILL's own projectile so style, parries and enemy reactions are ULTRAKILL's.",
+"columns": {
+"id": "row id",
+"priority": "check order",
+"pg3dFlag": "WeaponSounds field that selects it (none = only as a category default)",
+"ukSource": "GunSetter field with the ULTRAKILL weapon prefab",
+"ukComponentField": "component.field holding the projectile prefab",
+"damageFrom": "pg3d = gun's scaled damage; uk = ULTRAKILL's own projectile damage",
+"shotsPerTrigger": "WeaponSounds field or a number",
+"spreadDegrees": "random cone",
+"range": "metres (melee only, 0 = n/a)",
+"autoFire": "hold = keeps firing while held; click = one shot per click; fast = hold only when the gun fires 5+ shots/s"
+},
+"rows": [
+{
+"id": "melee",
+"priority": 1,
+"pg3dFlag": "isMelee",
+"ukSource": "none",
+"ukComponentField": "none",
+"damageFrom": "pg3d",
+"shotsPerTrigger": "1",
+"spreadDegrees": 0,
+"range": 3.5,
+"autoFire": "click"
+},
+{
+"id": "rail",
+"priority": 2,
+"pg3dFlag": "railgun",
+"ukSource": "railCannon",
+"ukComponentField": "Railcannon.beam",
+"damageFrom": "pg3d",
+"shotsPerTrigger": "1",
+"spreadDegrees": 0,
+"range": 0,
+"autoFire": "click"
+},
+{
+"id": "flame",
+"priority": 3,
+"pg3dFlag": "flamethrower",
+"ukSource": "nailOverheat",
+"ukComponentField": "Nailgun.heatedNail",
+"damageFrom": "pg3d",
+"shotsPerTrigger": "2",
+"spreadDegrees": 7,
+"range": 0,
+"autoFire": "hold"
+},
+{
+"id": "grenade",
+"priority": 4,
+"pg3dFlag": "grenadeLauncher",
+"ukSource": "shotgunGrenade",
+"ukComponentField": "Shotgun.grenade",
+"damageFrom": "uk",
+"shotsPerTrigger": "countInSeriaBazooka",
+"spreadDegrees": 2,
+"range": 0,
+"autoFire": "click"
+},
+{
+"id": "rocket",
+"priority": 5,
+"pg3dFlag": "bazooka",
+"ukSource": "rocketBlue",
+"ukComponentField": "RocketLauncher.rocket",
+"damageFrom": "uk",
+"shotsPerTrigger": "countInSeriaBazooka",
+"spreadDegrees": 3,
+"range": 0,
+"autoFire": "click"
+},
+{
+"id": "shotgun",
+"priority": 6,
+"pg3dFlag": "isShotGun",
+"ukSource": "revolverPierce",
+"ukComponentField": "Revolver.revolverBeam",
+"damageFrom": "pg3d",
+"shotsPerTrigger": "6",
+"spreadDegrees": 6,
+"range": 0,
+"autoFire": "click"
+},
+{
+"id": "hitscan",
+"priority": 7,
+"pg3dFlag": "none",
+"ukSource": "revolverPierce",
+"ukComponentField": "Revolver.revolverBeam",
+"damageFrom": "pg3d",
+"shotsPerTrigger": "1",
+"spreadDegrees": 0.6,
+"range": 0,
+"autoFire": "fast"
+}
+]
+}

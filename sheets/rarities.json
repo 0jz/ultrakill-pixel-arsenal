@@ -1,0 +1,19 @@
+{
+"sheet": "rarities",
+"about": "PG3D's six weapon rarities. value is WeaponSounds.rarity; names are the game's own English terms Key_2394..Key_2399. Colours are the creator's choice: Epic yellow, Legendary red, Mythical purple.",
+"columns": {
+"id": "row id",
+"value": "WeaponSounds.rarity",
+"name": "game's English name",
+"term": "game's localization term",
+"color": "menu border colour"
+},
+"rows": [
+{"id": "common", "value": 0, "name": "Common", "term": "Key_2394", "color": "#9a9a9a"},
+{"id": "uncommon", "value": 1, "name": "Uncommon", "term": "Key_2395", "color": "#4dcc4d"},
+{"id": "rare", "value": 2, "name": "Rare", "term": "Key_2396", "color": "#3399ff"},
+{"id": "epic", "value": 3, "name": "Epic", "term": "Key_2397", "color": "#ffe01a"},
+{"id": "legendary", "value": 4, "name": "Legendary", "term": "Key_2398", "color": "#ff2020"},
+{"id": "mythical", "value": 5, "name": "Mythical", "term": "Key_2399", "color": "#b34dff"}
+]
+}

@@ -1,0 +1,7 @@
+work/
+dist/
+shots/
+obj/
+bin/
+__pycache__/
+*.zip

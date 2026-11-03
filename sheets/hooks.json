@@ -1,0 +1,14 @@
+{"sheet":"hooks","about":"Every place the mod touches ULTRAKILL.",
+"columns":{"id":"row id","target":"ULTRAKILL type.member","kind":"Harmony patch / call / read","what":"what it does","system":"systems.id that owns it"},
+"rows":[
+{"id":"fillSlots","target":"GunSetter.ResetWeapons","kind":"Harmony postfix","what":"when the arsenal is on: empties all six GunControl slots and fills slot N with the loadout for category N, then GunControl.UpdateWeaponList","system":"arsenal"},
+{"id":"slotKeys","target":"GunControl.Update (Slot1..Slot6, NextVariation)","kind":"read (unchanged)","what":"ULTRAKILL's own keys pick the category and cycle its six guns","system":"arsenal"},
+{"id":"beam","target":"Revolver.revolverBeam / Railcannon.beam -> RevolverBeam.damage, sourceWeapon","kind":"call","what":"hitscan, shotgun pellets and rail shots","system":"firing"},
+{"id":"rocket","target":"RocketLauncher.rocket / Shotgun.grenade -> Grenade.sourceWeapon","kind":"call","what":"rockets and grenades","system":"firing"},
+{"id":"nail","target":"Nailgun.heatedNail -> Nail.damage, sourceWeapon","kind":"call","what":"flamethrower spray","system":"firing"},
+{"id":"meleeHit","target":"EnemyIdentifierIdentifier.eid.DeliverDamage + StyleHUD.AddPoints","kind":"call","what":"melee swings","system":"firing"},
+{"id":"zoom","target":"CameraController.Zoom / StopZoom","kind":"call","what":"sniper scopes on right mouse","system":"firing"},
+{"id":"weaponLook","target":"GunSetter.revolverPierce renderers (material, layer)","kind":"read","what":"PG3D models drawn with ULTRAKILL's own weapon shader and layer","system":"modelBuilder"},
+{"id":"menuLock","target":"GameStateManager.RegisterState / PopState","kind":"call","what":"armory menu frees the cursor and freezes player and camera input","system":"armoryMenu"},
+{"id":"cameraShake","target":"CameraController.CameraShake","kind":"call","what":"recoil feel per shot","system":"firing"}
+]}

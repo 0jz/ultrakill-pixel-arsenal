@@ -1,0 +1,11 @@
+{"sheet":"config","about":"Player settings (BepInEx config).",
+"columns":{"id":"config key","type":"value type","default":"default value","what":"meaning"},
+"rows":[
+{"id":"ArsenalEnabled","type":"bool","default":"true","what":"Pixel Gun guns replace V1's arsenal (off = ULTRAKILL's own guns)"},
+{"id":"ToggleKey","type":"Key","default":"F8","what":"switch arsenal on/off in game"},
+{"id":"MenuKey","type":"Key","default":"B","what":"open the armory"},
+{"id":"ReloadKey","type":"Key","default":"T","what":"reload the gun in hand before its clip runs out"},
+{"id":"DashDistanceScale","type":"float","default":"1.5","what":"metres of ULTRAKILL dash per unit of PG3D dash"},
+{"id":"TextureMaxSize","type":"int","default":"128","what":"largest texture side after the ULTRAKILL downgrade"},
+{"id":"GunScale","type":"float","default":"1.0","what":"size of guns on screen"}
+]}

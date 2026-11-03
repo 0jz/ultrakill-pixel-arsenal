@@ -1,0 +1,2100 @@
+{
+"sheet": "rarity_overrides",
+"about": "Guns whose grade on pg3d.wiki.gg (Category:Common/Rare/Epic/Legendary/Mythical, read 2026-11-02) differs from WeaponSounds.rarity in the game files, which is stale for guns regraded in later updates. Guns not listed keep the file value.",
+"columns": {
+"id": "weapon id",
+"name": "gun name",
+"fileRarity": "WeaponSounds.rarity",
+"wikiRarity": "grade on the wiki"
+},
+"rows": [
+{
+"id": "5",
+"name": "Heavy Machine Gun",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "6",
+"name": "Miner Weapon",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "8",
+"name": "Ak Mini",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "10",
+"name": "Combat Rifle",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "16",
+"name": "Swat Rifle",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "17",
+"name": "Fast Death",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "19",
+"name": "Battle Shovel",
+"fileRarity": 3,
+"wikiRarity": 0
+},
+{
+"id": "20",
+"name": "Pig Hammer",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "25",
+"name": "Hitman Pistol",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "43",
+"name": "Warrior Axe",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "44",
+"name": "Hunger Bow",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "45",
+"name": "Chainsaw",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "46",
+"name": "Crossbow",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "53",
+"name": "Army Rifle",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "57",
+"name": "Happy Tree Slayer",
+"fileRarity": 2,
+"wikiRarity": 3
+},
+{
+"id": "61",
+"name": "Guerilla Rifle",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "65",
+"name": "Brutal Headhunter",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "75",
+"name": "Apocalypse",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "79",
+"name": "Grenade Launcher",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "83",
+"name": "Anti-gravity Blaster",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "100",
+"name": "Sparkly Blaster",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "102",
+"name": "AK-48",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "108",
+"name": "Steam Power",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "116",
+"name": "Scythe",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "118",
+"name": "Plasma Rifle",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "119",
+"name": "Plasma Pistol",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "125",
+"name": "Flaming Volcano",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "134",
+"name": "Magic Bow",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "197",
+"name": "Carrot Sword",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "206",
+"name": "Assault Machine Gun",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "251",
+"name": "Electro-Blast Rifle",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "253",
+"name": "Mines Launcher",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "255",
+"name": "Hydra",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "257",
+"name": "Future Rifle",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "258",
+"name": "Rapid Fire Rifle",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "259",
+"name": "Dual Uzi",
+"fileRarity": 2,
+"wikiRarity": 3
+},
+{
+"id": "260",
+"name": "Laser Disc Thrower",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "261",
+"name": "Tesla Cannon",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "262",
+"name": "Photon Pistol",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "286",
+"name": "Alien Cannon",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "298",
+"name": "Just A Hand",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "404",
+"name": "Frost Beam Spell",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "406",
+"name": "Thunder Spell",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "501",
+"name": "Snow Storm",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "512",
+"name": "Photon Sniper Rifle",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "518",
+"name": "Mercenary",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "521",
+"name": "Laser Spear",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "527",
+"name": "Double Dragon",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "530",
+"name": "Love Spell",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "533",
+"name": "Casanova",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "541",
+"name": "Grenadier",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "544",
+"name": "Impulse Minigun",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "555",
+"name": "Assault Shotgun",
+"fileRarity": 3,
+"wikiRarity": 2
+},
+{
+"id": "595",
+"name": "Blade of Justice",
+"fileRarity": 1,
+"wikiRarity": 2
+},
+{
+"id": "598",
+"name": "Minigun Shotgun",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "611",
+"name": "Piranha",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "613",
+"name": "One Shot",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "614",
+"name": "Impulse Rifle",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "615",
+"name": "Combat Yo-Yo",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "641",
+"name": "Bomber Slinger",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "642",
+"name": "Future Sniper Rifle",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "643",
+"name": "B.E.A.S.T.",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "645",
+"name": "Core Sword",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "664",
+"name": "Special Agent",
+"fileRarity": 1,
+"wikiRarity": 3
+},
+{
+"id": "665",
+"name": "Power Fists",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "670",
+"name": "Music Lover",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "671",
+"name": "Veteran",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "672",
+"name": "Mini Alien Spaceship",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "673",
+"name": "Flag Keeper",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "674",
+"name": "Leader's Sword",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "676",
+"name": "Laser Assistant",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "680",
+"name": "Champion Mercenary",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "681",
+"name": "Champion Peacemaker",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "684",
+"name": "Adamant Spear",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "685",
+"name": "Champion Electric Arc",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "686",
+"name": "Adamant Sniper Rifle",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "687",
+"name": "Anti-Champion Rifle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "688",
+"name": "Champion Solar Cannon",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "689",
+"name": "Adamant Bomber",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "696",
+"name": "Shadow Spell",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "699",
+"name": "Steampunk Fists",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "707",
+"name": "Killer Whale",
+"fileRarity": 5,
+"wikiRarity": 3
+},
+{
+"id": "708",
+"name": "Renegade",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "709",
+"name": "Demon Sword",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "712",
+"name": "Sniper Exoskeleton",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "713",
+"name": "Demolition Exoskeleton",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "716",
+"name": "Engineer Exoskeleton",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "717",
+"name": "Death Claws",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "718",
+"name": "Eva",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "719",
+"name": "Space Disinfector",
+"fileRarity": 2,
+"wikiRarity": 3
+},
+{
+"id": "720",
+"name": "Mega Gun",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "725",
+"name": "Anime Scythe",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "727",
+"name": "Future Police Rifle",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "731",
+"name": "Good Doctor",
+"fileRarity": 3,
+"wikiRarity": 2
+},
+{
+"id": "732",
+"name": "Devastator",
+"fileRarity": 0,
+"wikiRarity": 3
+},
+{
+"id": "733",
+"name": "Supercharged Rifle",
+"fileRarity": 0,
+"wikiRarity": 4
+},
+{
+"id": "735",
+"name": "Manticore",
+"fileRarity": 0,
+"wikiRarity": 3
+},
+{
+"id": "738",
+"name": "Good & Evil",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "747",
+"name": "Rhino",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "750",
+"name": "Inventor's Rifle",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "751",
+"name": "Vandals",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "752",
+"name": "Revolver Sniper Rifle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "753",
+"name": "Captain",
+"fileRarity": 3,
+"wikiRarity": 2
+},
+{
+"id": "754",
+"name": "Void Energy Pistol",
+"fileRarity": 1,
+"wikiRarity": 3
+},
+{
+"id": "755",
+"name": "Destruction System",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "756",
+"name": "Circus Cannon",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "769",
+"name": "Poison Darts",
+"fileRarity": 0,
+"wikiRarity": 3
+},
+{
+"id": "770",
+"name": "Primal Beast",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "773",
+"name": "Gum Rifle",
+"fileRarity": 2,
+"wikiRarity": 3
+},
+{
+"id": "774",
+"name": "Bone Crusher",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "775",
+"name": "Soda Launcher",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "777",
+"name": "Royal Fighter",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "778",
+"name": "Royal Revolver",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "781",
+"name": "Royal Sniper Rifle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "782",
+"name": "Royal Ashbringer",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "785",
+"name": "Sniper Shovel",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "788",
+"name": "Laser Shovel",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "794",
+"name": "Cursed Pirate",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "797",
+"name": "Heart of Volcano",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "800",
+"name": "Clan Hero Shovel",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "807",
+"name": "Combat Slinger",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "808",
+"name": "Paintball Rifle",
+"fileRarity": 3,
+"wikiRarity": 2
+},
+{
+"id": "809",
+"name": "Laser Rings",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "811",
+"name": "Ritual Revolvers",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "813",
+"name": "Deadman's Rifle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "814",
+"name": "Witch Hunter",
+"fileRarity": 0,
+"wikiRarity": 3
+},
+{
+"id": "815",
+"name": "Industrial Nailer",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "817",
+"name": "Ghost Launcher",
+"fileRarity": 2,
+"wikiRarity": 3
+},
+{
+"id": "820",
+"name": "Witch Broom",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "821",
+"name": "Cyber Slicer",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "822",
+"name": "Ricochet Rifle",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "823",
+"name": "Cyber Revolver",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "828",
+"name": "Rocket Hands",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "830",
+"name": "Skull Crossbow",
+"fileRarity": 1,
+"wikiRarity": 3
+},
+{
+"id": "832",
+"name": "Sniper Cyber Module",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "833",
+"name": "Cop's Club",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "834",
+"name": "Ultimatum",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "835",
+"name": "Lamp Revolver",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "836",
+"name": "Laser Carbine",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "838",
+"name": "Hand Gatling",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "839",
+"name": "Steam Gun",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "840",
+"name": "Gold Fever",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "841",
+"name": "Bow of Spirits",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "845",
+"name": "Corn Launcher",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "846",
+"name": "Thanksgiving Pie",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "847",
+"name": "Triple Musket",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "849",
+"name": "Eckodile Rifle",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "850",
+"name": "Like Launcher",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "851",
+"name": "Snap Attacker",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "852",
+"name": "Liquid Fire",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "853",
+"name": "Electric Vortex",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "854",
+"name": "Cursed Staff",
+"fileRarity": 2,
+"wikiRarity": 3
+},
+{
+"id": "855",
+"name": "Blinder",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "856",
+"name": "Peppermint Guardians",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "857",
+"name": "Freon",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "859",
+"name": "Cooler",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "860",
+"name": "Frosty Railgun",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "861",
+"name": "Winter Staff",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "862",
+"name": "Splinter",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "863",
+"name": "Peppermint Shovel",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "865",
+"name": "Torpedo Launcher",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "866",
+"name": "Sawed-off Shotguns",
+"fileRarity": 2,
+"wikiRarity": 3
+},
+{
+"id": "868",
+"name": "Ultra Beam",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "869",
+"name": "Sock Bomber",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "870",
+"name": "Energy Assault Rifle",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "872",
+"name": "Ice Skate",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "875",
+"name": "Gauntlet of Power",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "876",
+"name": "Space Devastator",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "877",
+"name": "Snow Blaster",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "880",
+"name": "Spruce Pistol",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "881",
+"name": "Christmas Spirit",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "882",
+"name": "Ice Lightning",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "890",
+"name": "Saturn",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "891",
+"name": "Venus & Mercury",
+"fileRarity": 4,
+"wikiRarity": 2
+},
+{
+"id": "898",
+"name": "Gift Stitcher",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "902",
+"name": "Oh Deer",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "903",
+"name": "New Year Defender",
+"fileRarity": 0,
+"wikiRarity": 4
+},
+{
+"id": "906",
+"name": "Proton Freezer",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "915",
+"name": "Pixel-Cola Refresher",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "916",
+"name": "Overseer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "917",
+"name": "Instigator",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "918",
+"name": "Storm",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "920",
+"name": "Semi-Auto Shotgun",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "921",
+"name": "Stinger 3000",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "926",
+"name": "Night Hunter",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "927",
+"name": "Spec Ops Pistol",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "928",
+"name": "Tactical Knife",
+"fileRarity": 0,
+"wikiRarity": 4
+},
+{
+"id": "929",
+"name": "Hand Minigun",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "930",
+"name": "Heavy Sniper Rifle",
+"fileRarity": 0,
+"wikiRarity": 4
+},
+{
+"id": "931",
+"name": "Armadillo",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "933",
+"name": "Temple Guardian",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "934",
+"name": "Healing Carp",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "935",
+"name": "Moon Halberd",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "939",
+"name": "Flaming Skull",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "940",
+"name": "Forest Sniper Bow",
+"fileRarity": 0,
+"wikiRarity": 2
+},
+{
+"id": "942",
+"name": "Alpenstock",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "951",
+"name": "Mithril Rifle",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "953",
+"name": "Medusa",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "954",
+"name": "Big B's Oven",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "955",
+"name": "Mr. Mixer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "956",
+"name": "Cookie Minigun",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "957",
+"name": "Enchanted Blades",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "959",
+"name": "Alchemist Staff",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "962",
+"name": "System Admin",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "964",
+"name": "Disconnector",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "965",
+"name": "Network Streamer",
+"fileRarity": 1,
+"wikiRarity": 4
+},
+{
+"id": "966",
+"name": "Antivirus",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "975",
+"name": "Hypersound Uzi",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "976",
+"name": "Double Gum",
+"fileRarity": 4,
+"wikiRarity": 3
+},
+{
+"id": "977",
+"name": "Black Hole",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "981",
+"name": "Portalius Wrath",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "982",
+"name": "Chipping Whip",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "983",
+"name": "Portalium Rifle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "984",
+"name": "Nuclear Rifle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "985",
+"name": "Deadly Umbrella",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "987",
+"name": "Acid Shotgun",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "991",
+"name": "Werewolf",
+"fileRarity": 0,
+"wikiRarity": 4
+},
+{
+"id": "996",
+"name": "Huge Boy",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "998",
+"name": "Fatal Melter",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "999",
+"name": "Dual Anger",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1000",
+"name": "Brutal Thinner",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1001",
+"name": "Liquidator X1",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1003",
+"name": "Pursuer X3",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1008",
+"name": "Block Rifle",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "1009",
+"name": "Block Shotgun",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1010",
+"name": "Block Flamethrower",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "1012",
+"name": "Plastic Rifle",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "1013",
+"name": "Plastic Bazooka",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1014",
+"name": "Plastic Carabin",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1018",
+"name": "Pulling Sucker Gun",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "1019",
+"name": "Witch Doctor",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "1021",
+"name": "Healing Staff",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "1025",
+"name": "Transformed Machine Gun",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "1026",
+"name": "Witch's Sheep Cauldron",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "1028",
+"name": "Throwing Spears",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1029",
+"name": "Aloha! Boom Boom!",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1030",
+"name": "Professional Bow",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1031",
+"name": "Artefact",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1033",
+"name": "Sharp-Eyed Courier",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "1037",
+"name": "Mega-Horn",
+"fileRarity": 0,
+"wikiRarity": 4
+},
+{
+"id": "1038",
+"name": "Raccoon with a Pipe",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1042",
+"name": "Ice Cream Thrower",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1043",
+"name": "Orange Killer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1044",
+"name": "Soda + Pop",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1045",
+"name": "Pyro 1116",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1052",
+"name": "Inevitability",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1056",
+"name": "Proud Eagle",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "1057",
+"name": "Sly Wolf",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1058",
+"name": "Brave Lion",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "1059",
+"name": "Offensive Catapult",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1060",
+"name": "Battle Horn",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "1061",
+"name": "Amazon's Sharp Ring",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1063",
+"name": "Pew Pew Rifle",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "1065",
+"name": "Tube Backpack",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1066",
+"name": "Supershot Rifle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1068",
+"name": "Digital Sunrise",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "1070",
+"name": "Wave Pulser",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1071",
+"name": "Arcade Rifle",
+"fileRarity": 0,
+"wikiRarity": 5
+},
+{
+"id": "1072",
+"name": "Arcade Flamethrower",
+"fileRarity": 1,
+"wikiRarity": 5
+},
+{
+"id": "1073",
+"name": "Fatality Hook",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1074",
+"name": "Fireball Gauntlet",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1115",
+"name": "Ice Chaser",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1116",
+"name": "Sneaky Pistol",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1179",
+"name": "Merchant Shovel",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1208",
+"name": "Cerberus",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1212",
+"name": "Earth Tremor",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1216",
+"name": "Invincible Lion",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1223",
+"name": "Like Booster",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1224",
+"name": "Ban Hammer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1274",
+"name": "Anomaly Concentrator",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1317",
+"name": "Geri & Freki",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "1320",
+"name": "Deceitful Cheater",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1327",
+"name": "Glitched Machine Gun",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1328",
+"name": "Perfect Rocket Launcher",
+"fileRarity": 2,
+"wikiRarity": 4
+},
+{
+"id": "1331",
+"name": "Super Pixel Gun",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1349",
+"name": "Mayor's Trophy Revolver",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1377",
+"name": "Ritual Rifle",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "1382",
+"name": "Flat Rifle",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1388",
+"name": "Bro Steamer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1391",
+"name": "Masterly Trumpet",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1392",
+"name": "Blot Axe",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1403",
+"name": "Thermal Ultra Scythe",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "1406",
+"name": "Dance Rifle",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1413",
+"name": "Ninja Swordpad",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1418",
+"name": "Bad Comment",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1424",
+"name": "Sentinel",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1441",
+"name": "Electronics Burner",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1442",
+"name": "Hounds RX03",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1448",
+"name": "Jet Spear",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1475",
+"name": "Irradiated SMG",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1476",
+"name": "Mutant Fish",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1477",
+"name": "Spiky Limbs",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1491",
+"name": "Purifying Shotgun",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1503",
+"name": "Fireflies Blessing",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1504",
+"name": "Branch of Wisdom",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1509",
+"name": "Otherworldly Wanderer",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1530",
+"name": "Handy Darts",
+"fileRarity": 3,
+"wikiRarity": 4
+},
+{
+"id": "1538",
+"name": "Storm Bringer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1544",
+"name": "Bubble G.U.M 01",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1548",
+"name": "Swords of Intelligence",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1553",
+"name": "Elves Energy Crystal",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1554",
+"name": "Tricky Electrizer",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1555",
+"name": "Plague Spreader",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1557",
+"name": "Moon Hunter Bow",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1559",
+"name": "Lightbringer",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "1562",
+"name": "Ice Giant Rifle",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1563",
+"name": "Moonblades",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1579",
+"name": "ODM Special Gear",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1585",
+"name": "Guardian Spirit",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1604",
+"name": "Tick-Tock Pistol",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1605",
+"name": "Heavy Cone Minigun",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1617",
+"name": "Armor-Piercing Sniper Rifle",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1623",
+"name": "Festive Eliminator",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1657",
+"name": "Usher",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1658",
+"name": "Special Throwing Knives",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1712",
+"name": "Deadly Icicle",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1718",
+"name": "Flaming Fury",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1726",
+"name": "Soul Cycler",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1730",
+"name": "Rusted Revolver",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "1734",
+"name": "Harmonic Synthesizer",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1814",
+"name": "Eclipse Harbinger",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1866",
+"name": "Tricky Maple",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1871",
+"name": "Rebar Sling",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1884",
+"name": "Silver Omen",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1887",
+"name": "Winged Hunger",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1889",
+"name": "Code Blaster",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1891",
+"name": "Beta-test Placeholder",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1893",
+"name": "Ultimate Killer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1895",
+"name": "Double PixelGun",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1899",
+"name": "Blue Silence",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1901",
+"name": "Frozen Heartbeat",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1902",
+"name": "Killer - 2026",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1903",
+"name": "Manual Destroyer",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1906",
+"name": "Hexrunner",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1915",
+"name": "Heavenly Overseer",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1917",
+"name": "LumiShell",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1918",
+"name": "Shark Cut",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1922",
+"name": "Heavy Steamers",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1930",
+"name": "Fragments Rewriter",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1934",
+"name": "Crossline Turret",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1939",
+"name": "Lagoon Light",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1943",
+"name": "Suppressor Grid",
+"fileRarity": 2,
+"wikiRarity": 5
+},
+{
+"id": "1954",
+"name": "Spirits Vessel",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1958",
+"name": "Amber Mosquito",
+"fileRarity": 3,
+"wikiRarity": 5
+},
+{
+"id": "1961",
+"name": "Synthwaver",
+"fileRarity": 5,
+"wikiRarity": 4
+},
+{
+"id": "1965",
+"name": "Vice Grip",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1968",
+"name": "Repeat Offender",
+"fileRarity": 4,
+"wikiRarity": 5
+},
+{
+"id": "1969",
+"name": "Jackpot",
+"fileRarity": 4,
+"wikiRarity": 5
+}
+]
+}

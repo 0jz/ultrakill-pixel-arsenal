@@ -1,0 +1,22 @@
+{"sheet":"weapon_columns","about":"The per-gun row (PgGun) the mod builds at runtime for every gun found in the player's own Pixel Gun 3D (install + download cache). Nothing here is shipped: each value is read from the player's copy.",
+"columns":{"id":"PgGun field","source":"where it is read from in the player's PG3D files","convert":"how it becomes the ULTRAKILL value","fallback":"used when the source is missing"},
+"rows":[
+{"id":"weaponId","source":"container path .../Weapons/Models/Weapons/Weapon<N>.prefab","convert":"N","fallback":"skip bundle"},
+{"id":"bundle","source":"bundle file holding that prefab","convert":"absolute path","fallback":"skip bundle"},
+{"id":"name","source":"WeaponSounds.localizeWeaponKey -> English localization term","convert":"translation text","fallback":"WeaponSounds.ShopId, else Weapon<N>"},
+{"id":"category","source":"WeaponSounds.categoryNabor","convert":"categories.id","fallback":"skip gun"},
+{"id":"dash","source":"WeaponSounds.isDash, or isMelee+isCharging with dashMaxImpulse tuned away from the default 100 (matches the wiki's Dash attribute)","convert":"charge guns: distance = charge x dashMaxImpulse / dashDecaySpeed x DashDistanceScale; isDash without charge: always full","fallback":"no dash"},
+{"id":"rarity","source":"WeaponSounds.rarity","convert":"0-5, see sheets/rarities.json (menu border colour, default loadout order)","fallback":"0"},
+{"id":"clip","source":"WeaponSounds.ammoInClip","convert":"shots before reload; 0 or isUnlimitedAmmo = never reloads","fallback":"0"},
+{"id":"shotsPerSecond","source":"WeaponSounds.fireRateShop (0-100 armory bar)","convert":"clamp(0.4*2^((rate-50)/12), 0.5, 12)","fallback":"2"},
+{"id":"damage","source":"WeaponSounds.damageByTier[last]","convert":"x categories.damageScale","fallback":"1"},
+{"id":"fireType","source":"WeaponSounds flags isMelee, railgun, flamethrower, grenadeLauncher, bazooka, isShotGun","convert":"fire_types row","fallback":"categories.defaultFireType"},
+{"id":"burst","source":"WeaponSounds.countInSeriaBazooka","convert":"projectiles per trigger for rocket/grenade (1-5)","fallback":"1"},
+{"id":"zoomFov","source":"WeaponSounds.isZooming + fieldOfViewZomm","convert":"right mouse zooms to that FOV (0 = no zoom)","fallback":"0"},
+{"id":"tag","source":"WeaponSounds.Tag","convert":"icon lookup key","fallback":"ShopId"},
+{"id":"icon","source":"Weapons/Resident/OfferIcons/<tag>_icon1_big.png","convert":"menu tile texture","fallback":"weapon name text"},
+{"id":"model","source":"prefab MeshFilter + SkinnedMeshRenderer meshes (arms, flashes and inactive objects left out), skinned meshes posed by the prefab's bones","convert":"one ULTRAKILL mesh per texture, fitted to ULTRAKILL's gun size","fallback":"no model, name shown"},
+{"id":"texture","source":"each renderer's material _MainTex Texture2D","convert":"the mip level at or below TextureMaxSize, point filtered, on ULTRAKILL's own weapon material","fallback":"material _Color as a flat colour"},
+{"id":"shootSound","source":"InnerWeaponPars.shoot AudioClip (FSB5 PCM16 or IMA ADPCM)","convert":"decoded AudioClip","fallback":"ULTRAKILL's own sound of that fire type"},
+{"id":"reloadSound","source":"InnerWeaponPars.reload AudioClip","convert":"decoded AudioClip","fallback":"none"}
+]}

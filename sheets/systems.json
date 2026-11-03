@@ -1,0 +1,62 @@
+{
+"sheet": "systems",
+"about": "Every system of the mod, one C# file each.",
+"columns": {
+"id": "row id",
+"file": "src file",
+"what": "responsibility",
+"reads": "what it reads",
+"writes": "what it writes"
+},
+"rows": [
+{
+"id": "plugin",
+"file": "src/Plugin.cs",
+"what": "BepInEx entry, config, keys, Harmony, test mode; test mode also opens the armory (check armory-opens)",
+"reads": "BepInEx config, PGA_PG3D_DIR env var",
+"writes": "BepInEx/config/PixelGunArsenal.cfg"
+},
+{
+"id": "scanner",
+"file": "src/PgCatalog.cs",
+"what": "finds every PG3D gun, icon and English name in the player's install + download cache on a background thread, cached between launches",
+"reads": "{game:pg3d}/Pixel Gun 3D_Data/StreamingAssets/aa and LocalLow/Pixel Gun Team/Pixel Gun 3D/AddressablesCache",
+"writes": "BepInEx/cache/PixelGunArsenal/catalog.json"
+},
+{
+"id": "bundleReader",
+"file": "src/PgBundles.cs",
+"what": "opens PG3D bundles and the bundles they reference (AssetsTools.NET); reads meshes, textures and sounds as plain data",
+"reads": "PG3D bundle files",
+"writes": "nothing"
+},
+{
+"id": "modelBuilder",
+"file": "src/PgModel.cs",
+"what": "turns a gun prefab into ULTRAKILL meshes, downgraded textures and decoded sounds",
+"reads": "bundleReader output",
+"writes": "Unity objects in memory"
+},
+{
+"id": "arsenal",
+"file": "src/Arsenal.cs",
+"what": "loadout (6 guns x 6 categories); builds weapon objects into GunControl slots",
+"reads": "catalog, loadout file",
+"writes": "BepInEx/config/PixelGunArsenal.loadout.txt"
+},
+{
+"id": "firing",
+"file": "src/PgWeapon.cs",
+"what": "per-gun behaviour: fire rate, clip, reload, fire types, zoom, recoil, ammo HUD; ULTRAKILL's VCR OSD Mono font for the ammo counter; guns pivot on their own centre",
+"reads": "PgGun row, fire_types",
+"writes": "ULTRAKILL projectiles"
+},
+{
+"id": "armoryMenu",
+"file": "src/ArmoryMenu.cs",
+"what": "Pixel Gun-style armory: category tabs, icon grid with names and stats, six loadout spots per category",
+"reads": "catalog, icons",
+"writes": "loadout"
+}
+]
+}

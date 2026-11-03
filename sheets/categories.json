@@ -1,0 +1,10 @@
+{"sheet":"categories","about":"One row per Pixel Gun 3D weapon category (WeaponSounds.categoryNabor). Each becomes one ULTRAKILL weapon slot; each slot holds loadoutSize guns cycled like ULTRAKILL variants.",
+"columns":{"id":"categoryNabor value","name":"PG3D armory tab name","ukSlot":"ULTRAKILL slot key (1-6)","loadoutSize":"guns per slot","damageScale":"ULTRAKILL damage per PG3D damage point (max tier)","reloadSeconds":"reload time","defaultFireType":"fire_types row used when no flag picks another","color":"menu tab colour (hex)"},
+"rows":[
+{"id":1,"name":"Primary","ukSlot":1,"loadoutSize":6,"damageScale":0.55,"reloadSeconds":1.4,"defaultFireType":"hitscan","color":"#3FA9F5"},
+{"id":2,"name":"Backup","ukSlot":2,"loadoutSize":6,"damageScale":0.45,"reloadSeconds":1.1,"defaultFireType":"hitscan","color":"#7AC943"},
+{"id":3,"name":"Melee","ukSlot":3,"loadoutSize":6,"damageScale":0.6,"reloadSeconds":0.0,"defaultFireType":"melee","color":"#FF7BAC"},
+{"id":4,"name":"Special","ukSlot":4,"loadoutSize":6,"damageScale":0.4,"reloadSeconds":1.6,"defaultFireType":"hitscan","color":"#B66DFF"},
+{"id":5,"name":"Sniper","ukSlot":5,"loadoutSize":6,"damageScale":0.6,"reloadSeconds":1.8,"defaultFireType":"rail","color":"#FFD23F"},
+{"id":6,"name":"Heavy","ukSlot":6,"loadoutSize":6,"damageScale":0.4,"reloadSeconds":2.2,"defaultFireType":"rocket","color":"#FF4B3E"}
+]}

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net472</TargetFramework><LangVersion>7.3</LangVersion><AssemblyName>PixelArsenal</AssemblyName><Nullable>disable</Nullable><EnableDefaultCompileItems>false</EnableDefaultCompileItems><Version>0.2.0</Version><GenerateDocumentationFile>false</GenerateDocumentationFile></PropertyGroup>
+  <!-- UkDir: the ULTRAKILL folder with BepInEx in it (tools/build_net.py finds it) -->
+  <ItemGroup><Compile Include="src/*.cs" /></ItemGroup>
+  <ItemGroup>
+    <Reference Include="lib/AssetsTools.NET.dll" />
+    <Reference Include="$(UkDir)/BepInEx/core/BepInEx.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/BepInEx/core/0Harmony.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/Assembly-CSharp.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/UnityEngine.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/UnityEngine.CoreModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/UnityEngine.PhysicsModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/UnityEngine.AudioModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/UnityEngine.IMGUIModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/UnityEngine.TextRenderingModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/Unity.InputSystem.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/Unity.Addressables.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/Unity.ResourceManager.dll"><Private>false</Private></Reference>
+    <Reference Include="$(UkDir)/ULTRAKILL_Data/Managed/netstandard.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="CheckUkDir" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="'$(UkDir)' == '' Or !Exists('$(UkDir)/BepInEx/core/BepInEx.dll')" Text="Pass -p:UkDir=&lt;ULTRAKILL folder with BepInEx&gt;, or build with tools/build_net.py, which finds it." />
+  </Target>
+</Project>
